@@ -26,10 +26,9 @@ The following files are available for the train and test data. Their description
 > Note: Features are normalized and bounded within [-1,1]. Therefore 
 > variables [are unitless](https://class.coursera.org/getdata-010/forum/thread?thread_id=49#comment-453)
 
-`subjectId ` ID of the subject who volunteered
-`activity  ` Activity name [LAYING, SITTING, STANDING, etc...]
-
-`measurements` (66 columns) are the desired measures extracted (*mean()* and *std()*) from the raw set and organized in columns, each measure has its own column.
+ + `subjectId ` ID of the subject who volunteered
+ + `activity  ` Activity name [LAYING, SITTING, STANDING, etc...]
+ + `measurements` (66 columns) are the desired measures extracted (*mean()* and *std()*) from the raw set and organized in columns, each measure has its own column.
 
 Measurements names:
 ```
